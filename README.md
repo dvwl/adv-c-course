@@ -10,15 +10,15 @@ By the end of this course, participants will be able to:
 -	Develop a solid understanding of C syntax, including functions, structs, and project structure.
 -	Learn to organize and manage multiple source and header files efficiently.
 -	Explore techniques for passing data between functions and files without relying on global variables.
-1.	Optimize Code Efficiency:
+2.	Optimize Code Efficiency:
 -	Master memory management within function calls, focusing on dynamic memory allocation and optimization.
 -	Implement bitwise operations for efficient data manipulation.
 -	Learn techniques to optimize memory usage in limited RAM environments, including efficient data storage and memory release.
-1.	Advanced File Handling:
+3.	Advanced File Handling:
 -	Work with binary files, memory-mapped files, and advanced file I/O techniques.
 -	Implement robust error handling for file I/O operations.
-1.	Multithreading and Concurrency:
+4.	Multithreading and Concurrency:
 -	Develop multithreaded applications and manage synchronization to handle shared resources effectively.
-1.	Advanced Data Structures:
+5.	Advanced Data Structures:
 -	Explore the use of structs to organize and manage data within your applications.
 -	Implement custom data structures and understand when and how to use them effectively in C programming.
