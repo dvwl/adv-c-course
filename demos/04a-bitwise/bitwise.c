@@ -69,33 +69,6 @@ Results calculateWithBitwise(int a, int b) {
     return res;
 }
 
-void myFunc(int* p_num, int size) {
-    // Step 1: Dynamically allocate memory for the array
-    p_num = (int*)malloc(size * sizeof(int));
-
-    // Check if memory allocation was successful
-    if (p_num == NULL) {
-        printf("Memory allocation failed!\n");
-        return;
-    }
-
-    // Step 2: Initialize all elements of the array to 1
-    for (int i = 0; i < size; i++) {
-        p_num[i] = 1;
-    }
-
-    // Step 3: Perform your algorithm here
-    // Example: Print the array to verify initialization
-    printf("Array initialized with 1:\n");
-    for (int i = 0; i < size; i++) {
-        printf("%d ", p_num[i]);
-    }
-    printf("\n");
-
-    // Step 4: Free the dynamically allocated memory
-    free(p_num);
-}
-
 int main() {
     // flags
     unsigned char userPermissions = FLAG_READ | FLAG_WRITE;    
@@ -116,10 +89,6 @@ int main() {
     // return a struct
     Results result = calculateWithBitwise(x, y);
     printf("sum: %d, product: %d\n", result.sum, result.product);
-
-    // dynamic memory allocation
-    int* a = NULL;  // Pointer to pass to the function
-    myFunc(a, 10);
 
     return 0;
 }
